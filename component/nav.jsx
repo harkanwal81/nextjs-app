@@ -5,8 +5,9 @@ export default function Nav() {
         <nav className="flex gap-5 p-10">
           {/* Prefetched when the link is hovered or enters the viewport */}
           <Link href="/">Home</Link>
-          {/* No prefetching */}
-          <a href="/about">About us</a>
+          <Link href="/about">About us</Link>
+          <Link href="/service">Services</Link>
+          <Link href="/contact">Contact us</Link>
         </nav>
   )
 }
